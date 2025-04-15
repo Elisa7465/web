@@ -23,7 +23,6 @@ orderInput.addEventListener("blur", () => {
   }
 });
 
-
 //Ввод ФИО 
 document.addEventListener("DOMContentLoaded", function () {
   const clientInput = document.getElementById("client");
@@ -40,6 +39,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   driverInput.addEventListener("input", function () {
       this.value = this.value.replace(/[^А-Яа-яЁё\s-]/g, '');
+  });
+  const emailInput = document.getElementById("client_email");
+
+  emailInput.addEventListener("input", function () {
+      this.value = this.value.replace(/[^a-zA-Z0-9.@]/g, "");
   });
 });
 

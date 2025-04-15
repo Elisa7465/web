@@ -3,9 +3,11 @@
       padding: 0px;
       font-family: "Montserrat", serif;
 }
+
 body {
       background-color: #FAF0E6;
-  }
+}
+
 .blank{
       display: flex;
       justify-content: center;
@@ -18,6 +20,7 @@ body {
       border-radius: 8px;
 
 }
+
 h1{
       margin-bottom: 20px;
       text-align: center;
@@ -29,18 +32,21 @@ form{
       gap:15px;
       margin: 0 0 20px 0;
 }
+
 .section{
       display: grid;
       gap:5px;
       grid-template-columns: 1fr 1fr;
 
 }
+
 input{
       border-radius: 5px;
       border: 1px solid transparent; 
       min-height: 20px;
       
 }
+
 #submit{
       background-color: #e0f4d6;
       height: 40px;
